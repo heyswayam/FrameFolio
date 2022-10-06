@@ -1,0 +1,128 @@
+@media screen and (max-width:500px) {
+    .navv{
+        grid-template-columns: 0.2fr 2fr;
+        align-items: center;
+    }
+    .navv ul {
+        display: flex;
+        justify-content: end;
+    }
+
+    .navv ul li a {
+        text-decoration: none;
+        color: rgb(153, 153, 153);
+        font-size: 1.2vh;
+    }
+.section1{
+    margin-top: 35px;
+}
+    .heading_1 {
+        font-size: 4vw;
+        font-weight: normal;
+        color: aliceblue;
+    }
+
+    .skill_subbox1 {
+        display: flex;
+        justify-content: center;
+        font-size: 3.5vw;
+        font-weight: lighter;
+        color: aliceblue;
+    }
+
+    .skill_subbox2 {
+        font-size: 1.1vw;
+    }
+
+    .responsive_plus {
+        height: 2vw;
+        margin: 0.6vw;
+    }
+
+    .section3 {
+        width: 68%;
+        margin: 16.5vw auto 13.944vw auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 26.389vw;
+        justify-items: self-end;
+        align-items: center;
+    }
+
+    .sec3_image {
+        width: 80%;
+    }
+
+    .sec3_para {
+        grid-template-columns: 1fr;
+    }
+
+    .sec3_para_1 {
+        letter-spacing: 0.156em;
+        color: #ff9a35;
+        font-size: 0.833vw;
+    }
+
+    .section4 {
+        width: 68%;
+    }
+
+    .sec4_para {
+        grid-template-columns: 0.832fr;
+    }
+
+    .section5 {
+        width: 80%;
+        grid-template-columns: auto auto 25vw;
+    }
+
+    .bttn {
+        font-size: 0.5vh !important;
+    }
+
+    #para5 {
+        font-size: 3.5vw;
+        width: 62%;
+        grid-column: 1/ span 2;
+        margin: 5px 0px 10px 10px;
+    }
+
+    .bttn2 {
+        font-size: 1.5vw;
+    }
+
+    .sec_6_bgpic {
+        width: 84%;
+    }
+
+    .sec_6_bgpic_1 {
+        margin: 0px 0px 0px 3vw;
+    }
+
+    .sec_6_bgpic_2 {
+        position: relative;
+        z-index: 3;
+        margin-left: 3vw;
+        font-size: 1.35vw;
+    }
+
+    .footer-distributed .footer-right a {
+        display: inline-block;
+        width: 25px;
+        height: 35px;
+        background-color: #000000;
+        border-radius: 2px;
+        font-size: 1.389vw;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+        margin-left: 3px;
+        transition: all .25s;
+    }
+
+    .footer-distributed .footer-left p {
+        color: #fcfcfc;
+        font-size: 11px;
+        margin: 0;
+    }
+}
